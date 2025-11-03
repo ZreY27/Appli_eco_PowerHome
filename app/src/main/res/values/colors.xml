@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#7DCC81</color>
+    <color name="green_floor">#0A980B</color>
+    <color name="blue">#416692</color>
+    <color name="grey">#A9A9A8</color>
+    <color name="orange">#FFA500</color>
+    <color name="red">#FF0000</color>
+
+    <!--Palette-->
+    <color name="beige_palette">#FFEBD1</color>
+    <color name="bleu_fonce_palette">#001724</color>
+    <color name="bleu_palette">#15676D</color>
+    <color name="orange_palette">#FF7A00</color>
+    <color name="marron_palette">#79280E</color>
+</resources>

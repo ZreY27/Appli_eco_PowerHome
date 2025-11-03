@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/fond_logs"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/connexion"
+            android:textColor="@color/bleu_fonce_palette"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.80"
+        android:paddingHorizontal="40dp">
+
+        <RelativeLayout
+            android:id="@+id/layout_connexion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/fond_beige_palette_90pt"
+            android:paddingHorizontal="15dp">
+
+            <TextView
+                android:id="@+id/text_identifiez_vous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/identifier"
+                android:textColor="@color/bleu_fonce_palette"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_identifiez_vous"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mail"
+
+                    />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_mdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_email"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cadena" />
+
+                <EditText
+                    android:id="@+id/mdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/cairo_bold"
+                    android:hint="@string/mdp"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_mdp_oublie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_mdp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginVertical="25dp"
+                android:layout_marginEnd="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/cairo_bold"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/mdpoublie"
+                android:textColor="@color/marron_palette"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/loginbtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_mdp_oublie"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_bleu_palette"
+
+                android:fontFamily="@font/cairo_bold"
+
+                android:foreground="?attr/selectableItemBackground"
+
+                android:padding="15dp"
+                android:text="@string/connect"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_inscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_connexion"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/fond_beige_palette_90pt"
+            android:orientation="horizontal"
+            android:paddingHorizontal="15dp">
+
+            <TextView
+                android:id="@+id/text_nouveau_sur_powerhome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/nouveau"
+                android:textColor="@color/bleu_fonce_palette"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/creercompte"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_nouveau_sur_powerhome"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_marron_palette"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/cairo_bold"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingVertical="15dp"
+                android:text="@string/creer"
+                android:textColor="@color/white"
+
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

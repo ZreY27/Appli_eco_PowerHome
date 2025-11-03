@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name" translatable="false">MAOKAI</string>
+
+    <!-- LOGIN -->
+    <string name="logo" translatable="false">Logo</string>
+    <string name="connect">Log in</string>
+    <string name="identifier">Identify yourself</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="mdpoublie">FORGOTTEN PASSWORD ?</string>
+    <string name="nouveau">New on PowerHome ?</string>
+    <string name="creer">CREATE AN ACCOUNT</string>
+    <string name="facebook">Continue with Facebook</string>
+    <string name="mdp">Password</string>
+    <string name="ou">OR</string>
+    <string name="compte">Create an account</string>
+
+    <!-- REGISTER -->
+    <string name="fleche">arrow</string>
+    <string name="valid">VALID</string>
+    <string name="creercompte">Create an new account</string>
+    <string name="prenom">First Name</string>
+    <string name="nom">Last name</string>
+
+    <!-- MAIN -->
+    <string name="drawer_open" translatable="false">Open</string>
+    <string name="drawer_close" translatable="false">Close</string>
+
+    <string name="settings">Settings</string>
+
+    <!-- MENU -->
+    <string name="listhabitat">List of habitats</string>
+    <string name="monhabitat">My habitat</string>
+    <string name="requests">Requests</string>
+    <string name="logout">Log out</string>
+
+    <!-- MOT DE PASSE OUBLIE -->
+    <string name="mdpoublie2">Forgotten password</string>
+    <string name="nouveaumdp">New password</string>
+    <string name="confirmationmdp">Confirm password</string>
+    <string name="resetmdp">Reset password</string>
+
+    <!-- LANGUE -->
+    <string name="langue">Languages</string>
+    <string name="fr">French</string>
+    <string name="en">English</string>
+    <string name="es">Spanish</string>
+
+    <!-- PROFIL -->
+    <string name="profil">Profil</string>
+    <string name="equipement">Equipment(s)</string>
+    <string name="machine">Washing machine</string>
+    <string name="aspi">Vacuum</string>
+    <string name="clim">Air conditioner</string>
+    <string name="repasser">Iron</string>
+    <string name="enregistrer">Save</string>
+    <string name="modifier">Modify</string>
+    <string name="annuler">Cancel</string>
+    <string name="eco" translatable="false">Eco-coins</string>
+
+    <!-- LISTE HABITAT -->
+    <string name="msglist">Getting habitats with residents and appliances…</string>
+    <string name="aucunequipement">No equipement</string>
+
+    <!-- MON HABITAT -->
+    <string name="etage">Floor : </string>
+    <string name="surface">Surface : </string>
+    <string name="m2" translatable="false"> m²</string>
+    <string name="resident">Resident : </string>
+    <string name="nbequip">Number of equipment : </string>
+    <string name="msghabitat">Loading your home…</string>
+    <string name="debut">"Begin : "</string>
+    <string name="fin">"End : "</string>
+    <string name="wattage">Max wattage :  </string>
+    <string name="creneau">Reserved slots</string>
+
+    <!-- CALENDRIER -->
+    <string name="reservecreneau">Reserve the slot</string>
+    <string name="back">Cancel</string>
+    <string name="connexion">Login</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="appliance_s">Appliance(s)</string>
+    <string name="my_habitat">My habitat</string>
+    <string name="msg_creneau">Loading time slots...</string>
+    <string name="msg_reservation">Loading bookings...</string>
+</resources>

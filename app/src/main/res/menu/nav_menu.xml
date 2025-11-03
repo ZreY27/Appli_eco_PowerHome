@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav"
+        android:icon="@drawable/home"
+        android:title="@string/monhabitat"
+
+        />
+    <item
+        android:id="@+id/nav2"
+        android:icon="@drawable/myhome"
+        android:title="@string/listhabitat"
+
+        />
+    <item
+        android:id="@+id/nav3"
+        android:icon="@drawable/request"
+        android:title="@string/requests"
+
+        />
+    <item
+        android:id="@+id/nav4"
+        android:icon="@drawable/setting"
+        android:title="@string/settings"
+
+        />
+    <item
+        android:id="@+id/nav5"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"
+
+        />
+
+</menu>
+
+

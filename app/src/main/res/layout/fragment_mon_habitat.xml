@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fond_blanc_arrondi"
+        >
+
+        <View
+            android:id="@+id/separateur1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="13dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/title_my_habitat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:fontFamily="@font/cairo_bold"
+            android:paddingHorizontal="5dp"
+            android:textAlignment="center"
+            android:text="@string/my_habitat"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:id="@+id/text_resident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_my_habitat"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/prenom"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/bleu_fonce_palette"
+            />
+
+        <TextView
+            android:id="@+id/text_floor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_resident"
+            android:fontFamily="@font/cairo_bold"
+            android:layout_marginTop="5dp"
+            android:text="@string/etage"
+            android:textAlignment="center"
+            android:textColor="@color/bleu_fonce_palette"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_floor"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/surface"
+            android:textAlignment="center"
+            android:textColor="@color/bleu_fonce_palette"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_watt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_area"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/wattage"
+            android:fontFamily="@font/cairo_bold"
+            android:textColor="@color/bleu_fonce_palette"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fond_blanc_arrondi"
+        >
+        <View
+            android:id="@+id/separateur2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="13dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/title_my_appliances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/cairo_bold"
+            android:background="@color/white"
+            android:paddingHorizontal="5dp"
+            android:textAlignment="center"
+            android:text="@string/appliance_s"
+            android:textColor="@color/grey" />
+
+        <ListView
+            android:id="@+id/appliances_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo_bold"
+            android:layout_below="@id/title_my_appliances"
+            android:layout_marginHorizontal="55dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/bleu_fonce_palette"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fond_blanc_arrondi"
+        >
+
+    <View
+        android:id="@+id/separateur3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:id="@+id/title_my_bookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/cairo_bold"
+        android:background="@color/white"
+        android:paddingHorizontal="5dp"
+        android:text="@string/creneau"
+        android:textColor="@color/grey" />
+
+    <ListView
+        android:id="@+id/reservedSlot"
+        android:layout_marginVertical="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo_bold"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+    </RelativeLayout>
+</LinearLayout>
