@@ -1,7 +1,7 @@
 # ⚡ Application mobile — Maokai
 ## 📖 Présentation
 
-**Maokai** est une **application mobile Android** développée en **2025** dans le cadre d’un projet collectif.  
+**Maokai** est une **application mobile Android** développée en **2025** dans le cadre d’un projet académique au cours de ma **deuxième année d'études informatique**.  
 Elle permet aux **habitants d’une même résidence** de **surveiller et gérer leur consommation énergétique** afin de **réduire les pics d’utilisation** et d’**optimiser la répartition de l’électricité** au sein du bâtiment.  
 
 L’application encourage la **responsabilisation énergétique collective** en permettant aux résidents de **réserver des créneaux horaires** pour leurs activités énergivores. Ainsi, chacun peut anticiper les périodes de forte consommation et **adapter son comportement pour stabiliser la demande**.  
