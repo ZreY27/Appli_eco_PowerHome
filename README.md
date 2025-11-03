@@ -45,7 +45,7 @@ Ces choix permettent de rendre Maokai **économe, inclusive et durable**.
 ## 📁 Structure du projet
 
 ```
-Appli_eco_PowerHome/
+Appli_eco_Maokai/
 ├── app/
 │   ├── build.gradle                # Configuration du module Android
 │   ├── proguard-rules.pro          # Règles d’obfuscation
