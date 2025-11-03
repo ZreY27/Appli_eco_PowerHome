@@ -2,34 +2,37 @@
 
 ## 📖 Présentation
 
-**PowerHome** est une **application mobile Android** développée en **2025**.  
-Elle a pour objectif de sensibiliser et accompagner les utilisateurs dans une **gestion intelligente, économique et responsable de leur consommation d’énergie** à domicile.  
+**PowerHome** est une **application mobile Android** développée en **2025** dans le cadre d’un projet collectif.  
+Elle permet aux **habitants d’une même résidence** de **surveiller et gérer leur consommation énergétique** afin de **réduire les pics d’utilisation** et d’**optimiser la répartition de l’électricité** au sein du bâtiment.  
 
-L’application offre une interface intuitive et moderne permettant de **suivre sa consommation énergétique**, **analyser ses habitudes**, et **obtenir des conseils personnalisés** pour réduire son impact écologique tout en optimisant ses dépenses.
+L’application encourage la **responsabilisation énergétique collective** en permettant aux résidents de **réserver des créneaux horaires** pour leurs activités énergivores. Ainsi, chacun peut anticiper les périodes de forte consommation et **adapter son comportement pour stabiliser la demande**.  
+
+Ce système vise à **éviter les surcharges électriques**, **limiter l’impact écologique et économique**, et **améliorer la performance énergétique globale** de la résidence.
 
 ---
 
 ## 🧠 Objectifs du projet
 
-- Concevoir une **application mobile éco-responsable** favorisant les comportements durables.  
-- Intégrer des outils d’**analyse énergétique** pour visualiser les consommations par appareil ou période.  
-- Développer une **interface utilisateur fluide, moderne et intuitive**.  
-- Structurer le code selon une architecture **claire, modulaire et maintenable**.  
-- Respecter les normes d’**accessibilité** et de **performance énergétique** sur mobile.
+- Permettre à chaque foyer de **surveiller en temps réel sa consommation électrique**.  
+- Offrir un système de **réservation de créneaux horaires** pour anticiper les pics de consommation.  
+- Promouvoir une **consommation collective équilibrée** afin de réduire les hausses de prix liées aux surcharges.  
+- Fournir une interface claire et intuitive pour **visualiser les plages horaires actives et la charge énergétique globale**.  
+- Responsabiliser les utilisateurs par une approche **éco-citoyenne et collaborative**.  
+- Respecter les **bonnes pratiques d’écoconception** et les **normes d’accessibilité (WCAG 2.1 & RGAA 4.1)** pour garantir une expérience inclusive.  
 
 ---
 
 ## 🌿 Écoconception & Accessibilité
 
-Le projet **PowerHome** a été conçu selon une démarche de **développement durable** et d’**inclusion numérique**.  
-Il respecte en partie les **normes WCAG 2.1** et **RGAA 4.1**, notamment sur les aspects visuels :  
+Le projet **PowerHome** s’inscrit dans une démarche d’**écoconception logicielle** et de **développement inclusif**.  
+L’application met l’accent sur la sobriété énergétique et la lisibilité, tout en intégrant des critères d’accessibilité :  
 
-- 🎨 **Texte à contraste élevé** pour une lisibilité optimale, même en extérieur.  
-- 🕶️ **Polices claires et tailles ajustables** pour les utilisateurs malvoyants.  
-- 🌗 **Thèmes clairs et sombres** afin d’adapter l’interface selon les préférences visuelles.  
-- ♿ **Navigation fluide et intuitive**, compatible avec les lecteurs d’écran.  
+- 🎨 **Texte à contraste élevé** pour une meilleure visibilité.  
+- 🔎 **Interface adaptée aux malvoyants** (tailles de texte et contraste ajustables).  
+- 🌗 **Thème clair/sombre** pour s’adapter à l’environnement lumineux de l’utilisateur.  
+- ♿ **Compatibilité avec les lecteurs d’écran** et navigation simplifiée.  
 
-Ces choix renforcent la lisibilité, l’accessibilité et la durabilité énergétique de l’application.
+Ces choix permettent de rendre PowerHome **économe, inclusive et durable**.
 
 ---
 
@@ -39,7 +42,7 @@ Ces choix renforcent la lisibilité, l’accessibilité et la durabilité énerg
 - **Android Studio** — environnement de développement  
 - **Gradle** — gestionnaire de dépendances et de build  
 - **XML** — définition des interfaces graphiques  
-- **Firebase / SQLite** — stockage et synchronisation des données (selon configuration)  
+- **Firebase / SQLite** — stockage des données (consommation, créneaux, utilisateurs)  
 
 ---
 
@@ -75,8 +78,8 @@ Appli_eco_PowerHome/
 
 ## 🏫 Contexte
 
-Projet réalisé en **2025**, avec pour objectif de mettre en pratique les compétences en **développement Android**, **écoconception**, **analyse énergétique** et **travail en équipe**.  
-PowerHome illustre la capacité à concevoir une application mobile **intelligente, inclusive et respectueuse de l’environnement**.
+Projet réalisé en **2025**, dans le cadre d’un travail en équipe visant à explorer la **gestion collective de la consommation énergétique**.  
+PowerHome illustre la capacité à concevoir une application mobile **intelligente**, **collaborative** et **responsable**, alliant technologie, écologie et accessibilité numérique.
 
 ---
 
